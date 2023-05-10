@@ -1,7 +1,6 @@
 <?php
 
 use Src\Auth\Auth;
-
 ?>
 <div class="sidebar">
     <div class="sidebar-top">
