@@ -1,0 +1,15 @@
+{
+    "name": "momiamgood/generate_russian_isbn",
+    "description": "generate_russian_isbn",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Momiamgood\\Isbn\\": "pac/src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    }
+}
