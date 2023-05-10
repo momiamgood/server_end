@@ -89,6 +89,7 @@ class BookView
 
             $isbn = new \Isbn();
 
+
             if (Book::create([
                 'name' => str($request->name),
                 'cover' => str(($path . $file_name)),
