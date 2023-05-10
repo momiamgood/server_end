@@ -11,6 +11,7 @@ use Src\Request;
 use Src\Validator\Validator;
 use Src\View;
 
+
 class BookView
 {
     public function book_detail(Request $request): string
@@ -86,7 +87,7 @@ class BookView
             }
 
 
-            $isbn  = new \Isbn();
+            $isbn = new \Isbn();
 
             if (Book::create([
                 'name' => str($request->name),
@@ -100,7 +101,7 @@ class BookView
                 'hall_id' => (int)$request->hall_id,
                 'publisher_id' => (int)$request->publisher_id,
                 'rent' => true,
-                'isbn'=> $isbn->generateIsbn()
+                'isbn' => $isbn->generateIsbn()
 
             ])) {
                 app()->route->redirect('/books');
