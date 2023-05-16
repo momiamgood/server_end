@@ -11,6 +11,6 @@ class Hall extends Model
 
     public $timestamps = false;
 
-    protected $fillable  = ['number', 'name'];
+    protected $fillable = ['number', 'name'];
 
 }

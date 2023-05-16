@@ -43,12 +43,12 @@ use Src\Auth\Auth;
         </thead>
         <tbody>
         <?php
-        foreach ($publisher_list as $publisher){
+        foreach ($publisher_list as $publisher) {
             ?>
-        <tr>
-            <td><?= $publisher->name ?></td>
-        </tr>
-        <?php
+            <tr>
+                <td><?= $publisher->name ?></td>
+            </tr>
+            <?php
         }
         ?>
     </table>

@@ -50,15 +50,15 @@ use Src\Auth\Auth;
         </thead>
         <tbody>
         <?php
-        foreach ($reader_list as $reader){
+        foreach ($reader_list as $reader) {
             ?>
-        <tr>
-            <td><a href="reader?id=<?=$reader->reader_id?>"> <?= $reader->fio ?></a></td>
-            <td><?= $reader->reader_id ?></td>
-            <td><?= $reader->adress ?></td>
-            <td><?= $reader->phone_number ?></td>
-        </tr>
-        <?php
+            <tr>
+                <td><a href="reader?id=<?= $reader->reader_id ?>"> <?= $reader->fio ?></a></td>
+                <td><?= $reader->reader_id ?></td>
+                <td><?= $reader->adress ?></td>
+                <td><?= $reader->phone_number ?></td>
+            </tr>
+            <?php
         }
         ?>
     </table>

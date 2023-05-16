@@ -6,7 +6,7 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit007ea29c77dc3309fd4bb1e825964810
 {
-    public static $files = array (
+    public static $files = array(
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -19,170 +19,170 @@ class ComposerStaticInit007ea29c77dc3309fd4bb1e825964810
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
-    public static $prefixLengthsPsr4 = array (
-        'v' => 
-        array (
-            'voku\\' => 5,
-        ),
-        'U' => 
-        array (
-            'Upload\\' => 7,
-        ),
-        'S' => 
-        array (
-            'Symfony\\Polyfill\\Php80\\' => 23,
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Contracts\\Translation\\' => 30,
-            'Symfony\\Component\\Translation\\' => 30,
-            'Src\\' => 4,
-        ),
-        'P' => 
-        array (
-            'Psr\\SimpleCache\\' => 16,
-            'Psr\\Container\\' => 14,
-            'PhpParser\\' => 10,
-        ),
-        'M' => 
-        array (
-            'Momiamgood\\Isbn\\' => 16,
-            'Momiamgood\\Collect\\' => 19,
-        ),
-        'I' => 
-        array (
-            'Illuminate\\Support\\' => 19,
-            'Illuminate\\Pipeline\\' => 20,
-            'Illuminate\\Events\\' => 18,
-            'Illuminate\\Database\\' => 20,
-            'Illuminate\\Contracts\\' => 21,
-            'Illuminate\\Container\\' => 21,
-            'Illuminate\\Bus\\' => 15,
-        ),
-        'F' => 
-        array (
-            'FastRoute\\' => 10,
-        ),
-        'D' => 
-        array (
-            'Doctrine\\Inflector\\' => 19,
-            'DeepCopy\\' => 9,
-        ),
-        'C' => 
-        array (
-            'Carbon\\' => 7,
-        ),
-        'B' => 
-        array (
-            'Brick\\Math\\' => 11,
-        ),
+    public static $prefixLengthsPsr4 = array(
+        'v' =>
+            array(
+                'voku\\' => 5,
+            ),
+        'U' =>
+            array(
+                'Upload\\' => 7,
+            ),
+        'S' =>
+            array(
+                'Symfony\\Polyfill\\Php80\\' => 23,
+                'Symfony\\Polyfill\\Mbstring\\' => 26,
+                'Symfony\\Contracts\\Translation\\' => 30,
+                'Symfony\\Component\\Translation\\' => 30,
+                'Src\\' => 4,
+            ),
+        'P' =>
+            array(
+                'Psr\\SimpleCache\\' => 16,
+                'Psr\\Container\\' => 14,
+                'PhpParser\\' => 10,
+            ),
+        'M' =>
+            array(
+                'Momiamgood\\Isbn\\' => 16,
+                'Momiamgood\\Collect\\' => 19,
+            ),
+        'I' =>
+            array(
+                'Illuminate\\Support\\' => 19,
+                'Illuminate\\Pipeline\\' => 20,
+                'Illuminate\\Events\\' => 18,
+                'Illuminate\\Database\\' => 20,
+                'Illuminate\\Contracts\\' => 21,
+                'Illuminate\\Container\\' => 21,
+                'Illuminate\\Bus\\' => 15,
+            ),
+        'F' =>
+            array(
+                'FastRoute\\' => 10,
+            ),
+        'D' =>
+            array(
+                'Doctrine\\Inflector\\' => 19,
+                'DeepCopy\\' => 9,
+            ),
+        'C' =>
+            array(
+                'Carbon\\' => 7,
+            ),
+        'B' =>
+            array(
+                'Brick\\Math\\' => 11,
+            ),
     );
 
-    public static $prefixDirsPsr4 = array (
-        'voku\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
-        ),
-        'Upload\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/codeguy/upload/src/Upload',
-        ),
-        'Symfony\\Polyfill\\Php80\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
-        ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
-        'Symfony\\Contracts\\Translation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/translation-contracts',
-        ),
-        'Symfony\\Component\\Translation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/translation',
-        ),
-        'Src\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/Src',
-        ),
-        'Psr\\SimpleCache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
-        ),
-        'Psr\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'PhpParser\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
-        ),
-        'Momiamgood\\Isbn\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/momiamgood/generate_russian_isbn/pac/src',
-        ),
-        'Momiamgood\\Collect\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/momiamgood/collect/src',
-        ),
-        'Illuminate\\Support\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/collections',
-            1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/macroable',
-            3 => __DIR__ . '/..' . '/illuminate/support',
-        ),
-        'Illuminate\\Pipeline\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/pipeline',
-        ),
-        'Illuminate\\Events\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/events',
-        ),
-        'Illuminate\\Database\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/database',
-        ),
-        'Illuminate\\Contracts\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/contracts',
-        ),
-        'Illuminate\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/container',
-        ),
-        'Illuminate\\Bus\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/bus',
-        ),
-        'FastRoute\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nikic/fast-route/src',
-        ),
-        'Doctrine\\Inflector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
-        ),
-        'DeepCopy\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'Carbon\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
-        ),
-        'Brick\\Math\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/brick/math/src',
-        ),
+    public static $prefixDirsPsr4 = array(
+        'voku\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
+            ),
+        'Upload\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/codeguy/upload/src/Upload',
+            ),
+        'Symfony\\Polyfill\\Php80\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
+            ),
+        'Symfony\\Polyfill\\Mbstring\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+            ),
+        'Symfony\\Contracts\\Translation\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/symfony/translation-contracts',
+            ),
+        'Symfony\\Component\\Translation\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/symfony/translation',
+            ),
+        'Src\\' =>
+            array(
+                0 => __DIR__ . '/../..' . '/core/Src',
+            ),
+        'Psr\\SimpleCache\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+            ),
+        'Psr\\Container\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/psr/container/src',
+            ),
+        'PhpParser\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+            ),
+        'Momiamgood\\Isbn\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/momiamgood/isbn/src',
+            ),
+        'Momiamgood\\Collect\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/momiamgood/collect/src',
+            ),
+        'Illuminate\\Support\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/illuminate/collections',
+                1 => __DIR__ . '/..' . '/illuminate/conditionable',
+                2 => __DIR__ . '/..' . '/illuminate/macroable',
+                3 => __DIR__ . '/..' . '/illuminate/support',
+            ),
+        'Illuminate\\Pipeline\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/illuminate/pipeline',
+            ),
+        'Illuminate\\Events\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/illuminate/events',
+            ),
+        'Illuminate\\Database\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/illuminate/database',
+            ),
+        'Illuminate\\Contracts\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/illuminate/contracts',
+            ),
+        'Illuminate\\Container\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/illuminate/container',
+            ),
+        'Illuminate\\Bus\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/illuminate/bus',
+            ),
+        'FastRoute\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+            ),
+        'Doctrine\\Inflector\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
+            ),
+        'DeepCopy\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+            ),
+        'Carbon\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+            ),
+        'Brick\\Math\\' =>
+            array(
+                0 => __DIR__ . '/..' . '/brick/math/src',
+            ),
     );
 
-    public static $fallbackDirsPsr4 = array (
+    public static $fallbackDirsPsr4 = array(
         0 => __DIR__ . '/../..' . '/app',
     );
 
-    public static $classMap = array (
+    public static $classMap = array(
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',

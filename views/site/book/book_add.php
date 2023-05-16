@@ -30,10 +30,10 @@ use Src\Auth\Auth;
 </div>
 <main>
     <?php
-    if ($errors){
+    if ($errors) {
         ?>
-        <p><?= $errors?></p>
-    <?php
+        <p><?= $errors ?></p>
+        <?php
     }
     ?>
     <h1>Добавление книги</h1>
@@ -60,7 +60,7 @@ use Src\Auth\Auth;
             <option selected>Выберете жанр</option>
             <?php
 
-            foreach ($genre_list as $genre) {?>
+            foreach ($genre_list as $genre) { ?>
                 <option value="<?= $genre->id ?>"><?= $genre->name ?></option>
                 <?php
             }
@@ -69,7 +69,7 @@ use Src\Auth\Auth;
         <select class="form-select" aria-label="Default select example" name="hall_id">
             <option selected>Выберете зал</option>
             <?php
-            foreach ($hall_list as $hall) {?>
+            foreach ($hall_list as $hall) { ?>
                 <option value="<?= $hall->id ?>"><?= $hall->id ?></option>
                 <?php
             }
@@ -79,7 +79,7 @@ use Src\Auth\Auth;
         <select class="form-select" aria-label="" name="publisher_id">
             <option selected>Выберете издателя</option>
             <?php
-            foreach ($publisher_list as $publisher) {?>
+            foreach ($publisher_list as $publisher) { ?>
                 <option value="<?= $publisher->id ?>"><?= $publisher->name ?></option>
                 <?php
             }

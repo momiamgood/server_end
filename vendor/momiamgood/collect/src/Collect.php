@@ -1,6 +1,6 @@
 <?php
 
-namespace Collect;
+namespace Momiamgood\Collect;
 
 class Collect
 {

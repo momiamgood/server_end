@@ -20,6 +20,7 @@ return [
         'csrf' => \Middlewares\CSRFMiddleware::class,
         'trim' => \Middlewares\TrimMiddleware::class,
         'specialChars' => \Middlewares\SpecialCharsMiddleware::class,
+        'json' => \Middlewares\JSONMiddleware::class,
     ],
     'providers' => [
         'kernel' => Src\Provider\KernelProvider::class,
@@ -27,5 +28,4 @@ return [
         'db' => Src\Provider\DBProvider::class,
         'auth' => Src\Provider\AuthProvider::class,
     ],
-
 ];

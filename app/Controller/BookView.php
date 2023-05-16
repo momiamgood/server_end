@@ -7,10 +7,11 @@ use Model\Book_reader;
 use Model\Genre;
 use Model\Hall;
 use Model\Publisher;
+use Momiamgood\Isbn as Isbn;
 use Src\Request;
 use Src\Validator\Validator;
 use Src\View;
-
+use Upload\Storage\FileSystem;
 
 class BookView
 {
@@ -72,7 +73,7 @@ class BookView
             }
 
             $path = '../public/static/media/covers/';
-            $storage = new \Upload\Storage\FileSystem($path);
+            $storage = new FileSystem($path);
             $file = new \Upload\File('cover_file', $storage);
 
             $new_filename = uniqid();
@@ -86,9 +87,7 @@ class BookView
                 $errors = $file->getErrors();
             }
 
-
-            $isbn = new \Isbn();
-
+            $isbn = new Isbn\Isbn();
 
             if (Book::create([
                 'name' => str($request->name),
@@ -126,7 +125,7 @@ class BookView
         if ($request->method == "POST") {
 
             $path = '../public/static/media/covers/';
-            $storage = new \Upload\Storage\FileSystem($path);
+            $storage = new FileSystem($path);
             $file = new \Upload\File('cover_file', $storage);
 
             $new_filename = uniqid();

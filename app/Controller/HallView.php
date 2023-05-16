@@ -31,7 +31,7 @@ class HallView
             if ($validator->fails()) {
                 $message = json_encode($validator->errors(), JSON_UNESCAPED_UNICODE);
                 return new View('site.hall.hall_add', ['errors' => $message]);
-            }else if (Hall::create($request->all())) {
+            } else if (Hall::create($request->all())) {
                 app()->route->redirect('/halls');
             }
         }

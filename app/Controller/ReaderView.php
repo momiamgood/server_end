@@ -4,11 +4,11 @@ namespace Controller;
 
 use Model\Book;
 use Model\Book_reader;
+use Model\Reader;
 use Src\Auth\Auth;
 use Src\Request;
 use Src\Validator\Validator;
 use Src\View;
-use Model\Reader;
 
 class ReaderView
 {
@@ -16,7 +16,7 @@ class ReaderView
     {
         if ($request->method === "POST") {
             if (Reader::where('reader_id', 'like', '%' . $request->search . '%')->get()) {
-                $result = Reader::where('reader_id', 'like', '%' . $request->search . '%' );
+                $result = Reader::where('reader_id', 'like', '%' . $request->search . '%');
             } else if (Reader::where('fio', '%' . $request->search . '%')->get()) {
                 $result = Reader::where('fio', '%' . $request->search . '%')->get();
             }

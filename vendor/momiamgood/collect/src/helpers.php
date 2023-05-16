@@ -1,5 +1,6 @@
 <?php
-namespace Collect;
+
+namespace Momiamgood\Collect;
 
 function collection(array $array = []): Collect
 {

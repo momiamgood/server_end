@@ -45,5 +45,5 @@ use Src\Auth\Auth;
 
 
 <form method="post">
-   Premises::get('square')->sum();
+    Premises::get('square')->sum();
 </form>

@@ -44,13 +44,13 @@ use Src\Auth\Auth;
         </thead>
         <tbody>
         <?php
-        foreach ($lib_list as $lib){
+        foreach ($lib_list as $lib) {
             ?>
-        <tr>
-            <th scope="row"><?= $lib->name ?></th>
-            <th scope="row"><?= $lib->login ?></th>
-        </tr>
-        <?php
+            <tr>
+                <th scope="row"><?= $lib->name ?></th>
+                <th scope="row"><?= $lib->login ?></th>
+            </tr>
+            <?php
         }
         ?>
     </table>

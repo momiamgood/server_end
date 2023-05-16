@@ -8,13 +8,14 @@
     ?>
     <form method="post">
         <input name="csrf_token" type="hidden" value="<?= app()->auth::generateCSRF() ?>"/>
-        <label>Логин<input type="text" name="login"></label>
-        <label>Пароль<input type="password" name="password"></label>
+        <label>Логин</label>
+        <input type="text" name="login">
+        <label>Пароль</label>
+        <input type="password" name="password">
         <button class="submit-btn">Войти</button>
     </form>
 </div>
 <?php endif;
-
 ?>
 
 

@@ -16,7 +16,7 @@ return array(
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
-    'Momiamgood\\Isbn\\' => array($vendorDir . '/momiamgood/generate_russian_isbn/pac/src'),
+    'Momiamgood\\Isbn\\' => array($vendorDir . '/momiamgood/isbn/src'),
     'Momiamgood\\Collect\\' => array($vendorDir . '/momiamgood/collect/src'),
     'Illuminate\\Support\\' => array($vendorDir . '/illuminate/collections', $vendorDir . '/illuminate/conditionable', $vendorDir . '/illuminate/macroable', $vendorDir . '/illuminate/support'),
     'Illuminate\\Pipeline\\' => array($vendorDir . '/illuminate/pipeline'),

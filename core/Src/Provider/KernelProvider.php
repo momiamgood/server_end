@@ -2,7 +2,6 @@
 
 namespace Src\Provider;
 
-use Src\Provider\AbstractProvider;
 use Src\Settings;
 
 class KernelProvider extends AbstractProvider

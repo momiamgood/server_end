@@ -61,7 +61,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/vendor/momiamgood/collect" />
-      <path value="$PROJECT_DIR$/vendor/momiamgood/generate_russian_isbn" />
+      <path value="$PROJECT_DIR$/vendor/momiamgood/isbn" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

@@ -30,7 +30,7 @@ use Src\Auth\Auth;
 </div>
 <main>
     <h1>Выдача книги</h1>
-    <p><?=$error?></p>
+    <p><?= $error ?></p>
     <form method="post">
         <input name="csrf_token" type="hidden" value="<?= app()->auth::generateCSRF() ?>"/>
         <label for="book_id">Книга</label>
@@ -39,7 +39,8 @@ use Src\Auth\Auth;
         <input name="book_id" id="book_id" type="text" list="books" placeholder="Выберите книгу">
         <datalist id="books">
             <?php
-            foreach ($book_list as $book){?>
+            foreach ($book_list as $book) {
+                ?>
                 <option value="<?= $book->book_id ?>"><?= $book->name ?></option>
                 <?php
             }

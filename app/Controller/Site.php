@@ -2,11 +2,11 @@
 
 namespace Controller;
 
-use Src\Request;
-use Src\View;
+use Model\Book;
 use Model\User;
 use Src\Auth\Auth;
-use Model\Book;
+use Src\Request;
+use Src\View;
 
 class Site
 {
@@ -35,7 +35,11 @@ class Site
             return new View('site.login');
         }
         //Если удалось аутентифицировать пользователя, то редирект
-        if (Auth::attempt($request->all())) {
+        if (Auth::attempt([
+                'login' => $request->login,
+                'password' => $request->password
+            ]
+        )) {
             app()->route->redirect('/');
         }
         //Если аутентификация не удалась, то сообщение об ошибке

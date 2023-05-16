@@ -34,21 +34,22 @@ use Src\Auth\Auth;
     <p class="txt">На главной странице представлены наиболее популярные книги</p>
     <div class="popular-book-list">
         <?php
-        foreach ($book_list as $book){?>
-        <div class="popular-book-list-itm">
-            <p class="title"><?= $book->name ?></p>
-            <div class="half-block">
-                <div>
-                    <p class="subtitle"><?= $book->author ?></p>
-                    <p class="subtitle"><?= $book->date_publish ?></p>
+        foreach ($book_list as $book) {
+            ?>
+            <div class="popular-book-list-itm">
+                <p class="title"><?= $book->name ?></p>
+                <div class="half-block">
+                    <div>
+                        <p class="subtitle"><?= $book->author ?></p>
+                        <p class="subtitle"><?= $book->date_publish ?></p>
+                    </div>
+                    <p class="price"><?= $book->price ?></p>
                 </div>
-                <p class="price"><?= $book->price ?></p>
+                <div class="bottom-block">
+                    <a class="annotation-btn" href="book/?id=<?= $book->book_id ?>">Перейти к аннотации -></a>
+                </div>
             </div>
-            <div class="bottom-block">
-                <a class="annotation-btn" href="book/?id=<?=$book->book_id?>">Перейти к аннотации -></a>
-            </div>
-        </div>
-        <?php
+            <?php
         }
         ?>
     </div>

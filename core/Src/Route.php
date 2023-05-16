@@ -1,12 +1,12 @@
 <?php
+
 namespace Src;
 
 use Error;
-
-use FastRoute\RouteCollector;
-use FastRoute\RouteParser\Std;
 use FastRoute\DataGenerator\MarkBased;
 use FastRoute\Dispatcher\MarkBased as Dispatcher;
+use FastRoute\RouteCollector;
+use FastRoute\RouteParser\Std;
 use Src\Traits\SingletonTrait;
 
 class Route

@@ -2,10 +2,9 @@
 
 namespace Src\Provider;
 
-use Src\Provider\AbstractProvider;
 use Illuminate\Container\Container;
-use Illuminate\Events\Dispatcher;
 use Illuminate\Database\Capsule\Manager as Capsule;
+use Illuminate\Events\Dispatcher;
 
 class DBProvider extends AbstractProvider
 {

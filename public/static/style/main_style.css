@@ -31,7 +31,7 @@ h2 {
     height: 24px;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@ form {
     width: 500px;
 }
 
-.submit-btn{
+.submit-btn {
     color: white;
     background-color: #F9D57F;
     border-radius: 100px;
@@ -86,7 +86,7 @@ label {
     height: 100vh;
 }
 
-.sidebar > div{
+.sidebar > div {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
@@ -105,7 +105,7 @@ label {
     color: black;
 }
 
-.sidebar> div {
+.sidebar > div {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -149,6 +149,7 @@ nav > a {
     justify-content: space-between;
     align-items: center;
 }
+
 .half-block > div {
     display: flex;
     flex-direction: column;
@@ -178,7 +179,7 @@ nav > a {
     font-size: 20px;
 }
 
-.popular-book-list-itm{
+.popular-book-list-itm {
     display: flex;
     flex-direction: column;
     gap: 20px;

@@ -11,5 +11,5 @@ class Reader extends Model
 
     public $timestamps = false;
 
-    protected $fillable  = ['fio', 'adress', 'phone_number'];
+    protected $fillable = ['fio', 'adress', 'phone_number'];
 }
